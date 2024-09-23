@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+    <title>MFA</title>
+</head>
+<body>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        {{ form.token.label }} {{ form.token }}<br>
+        {{ form.submit }}
+    </form>
+    <a href="{{ url_for('qrcode_route') }}">Show QR Code</a>
+</body>
+</html>
