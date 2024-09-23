@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 cryptography==3.4.7
 PyJWT==2.1.0
+=======
+cryptography==3.4.7
+PyJWT==2.1.0
+>>>>>>> bd308dc1ea3f5156ac61983d67a2d0a429c5dfe7
